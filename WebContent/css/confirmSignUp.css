@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* 登録内容確認画面 */
+.signUp-confirm h2{
+    margin: 0 auto;
+}
+.warning {
+    width: 80%;
+    margin: 10% auto;
+    padding: 2%;
+    background-color: #fff;
+    text-align: left;
+    color: red;
+}
+.warning h4{
+    margin: 2%;
+    text-align: center;
+}

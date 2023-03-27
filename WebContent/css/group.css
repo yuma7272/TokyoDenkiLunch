@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* グループ画面 */
+#group {
+	/*background-color: #FF6219;*/
+	background-color:#fed072;
+	padding: 2%;
+}
+.leave {
+	width: 50%;
+/*     background-color: rgb(245, 247, 180); */
+	/*background-color: #fff;*/
+    padding: 2%;
+    margin: 0 auto;
+}
+.leave input {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+.members {
+    /* display: flex; */
+  /*  height: 300px;*/
+    background-color: #fff;
+    margin-top: 8%;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    padding-bottom: 2%;
+    
+}
+.members p {
+    font-size: 20px;
+    
+}
+.member {
+    /* width: 50%; */
+    text-align: center;
+    display: flex;
+    margin: 0 2%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #fff;
+}
+.member h3, .member p {
+    width: 50%;
+}
+.member p {
+	margin-bottom: 2%;
+	border-bottom: 1px solid #000;
+}
+.member h3, .mySchedule h3 {
+   background-color: #fff;
+   border-bottom: 3px solid #f00
+}
+
+.schedule {
+    width: 50%;
+    text-align: center;
+}
+
+.mySchedule {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+.mySchedule {
+	padding-top: 4%;
+	padding-bottom: 8%;
+	padding-right: 2%;
+	padding-left: 2%;
+}
+
+.mySchedule input {
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.groupButton {
+	border-radius: 8px;
+}
+
+.leaveButton {
+	
+    color: white;
+    text-decoration: none;
+    /* padding: 3px; */
+    transition: all 0.2s;
+	border: none;
+	background-color: #1f61ff!important;
+}
+
+.groupName{
+	text-align : center;
+}
+
+

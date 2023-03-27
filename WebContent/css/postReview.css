@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* 口コミ投稿画面 */
+#postReview {
+/*     background-color: #aae; */
+background-color: #fea;
+    margin: 2%;
+    padding: 2%;
+}
+.parent-review {
+    display: flex;
+    margin-bottom: 8%;
+}
+.parent-review h4 {
+    width: 40%;
+    margin: 0;
+}
+#submit {
+    display: block;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 8px;
+}

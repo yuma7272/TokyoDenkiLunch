@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* 空き教室画面 */
+#room {
+    width: 100%;
+}
+#room table tr{
+    padding-top: 100px;
+    border-bottom: #555 4px solid;
+}
+#room table td{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+ .roomElement {
+    display: flex;
+    height: 100%; 
+    background-color: rgb(230, 227, 227);
+    margin-bottom: 4%;
+} 
+.roomElement h5 {
+    display: inline;
+    /* background-color: rgb(114, 82, 82); */
+    width: 40%;
+    height: 100%;
+    padding: auto 0;
+    margin: auto;
+    text-align: center;
+}
+.roomElement table {
+    width: 60%;
+}

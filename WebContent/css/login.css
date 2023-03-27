@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/* ログイン画面部分 */
+#login {
+    padding-bottom: 30%;
+
+}
+
+.input-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20%;
+}
+.input-info h5 {
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+.input-info input, .loginButton input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+.newRegister {
+    padding: 4%;
+}
+.newRegister a{
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    padding: 2%;
+    justify-content: center;
+    text-align: center;
+    background-color: #ddd;
+    border-radius: 8px;
+    color: black;
+    border: none;
+}
+.newRegister a:hover{
+background-color: #ddd;
+color: red;
+}
+.loginButton input[type="submit"]{
+/* 	display:inline-block; */
+	-webkit-appearance: none;
+	background-color: #d00;
+	color: white;
+	padding: 1% 3%;
+	font-size: 16px;
+	border-radius: 8px;
+	border: none;
+}
+.loginButton input[type="submit"]:hover {
+	background-color: #f00;
+}

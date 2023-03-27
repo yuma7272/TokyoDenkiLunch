@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* グループ作成画面 */
+#createGroup h4{
+    /* margin: 0 auto; */
+    text-align: center;
+    margin-bottom: 0;
+}
+#createGroup input {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 8%;
+}
+.groupName {
+    height: 30px;
+}
+
+.parent-join {
+    display: flex;
+}

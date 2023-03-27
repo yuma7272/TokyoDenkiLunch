@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.topBody{
+	background-image: url(../images/background/dendai.jpg);
+	background-repeat:  no-repeat;                         /* 画像の繰り返しを指定  */              
+    background-size:cover;
+    background-attachment:fixed;
+    width:100%;
+    height: 20rem;
+    padding-bottom:10%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.word{
+	padding-top:30%;
+	padding-bottom:50%;
+    top: 38%;
+    left: 15%;
+	font-size:50px;
+	font-family:"Yu Mincho";
+	color:white;
+}
+
+.body{
+	margin-right:10%;
+	margin-left:10%;
+	margin-bottom: 15%;
+}
+
+
+.advice{
+	 height:4em;
+	 text-align:center;
+	 font-size:1em;
+	 margin-bottom:20%;
+}
+
+
+.advice-text{
+	/* margin-left: 5%; */
+    /* margin-right: 5%; */
+    padding-top: 10px;
+    /* padding-bottom: 10px; */
+    word-break: keep-all;
+}
+
+
+.exitButton{
+	width: 42%;
+    height: 55px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 10px;
+    border:none;
+    border-radius: 5px;
+}
+.exit button:hover {
+	cursor: default;
+}
+.eastButton{
+	color: #FFF;
+	background: #0080ff;
+}
+.westButton{
+	color: #FFF;
+	background: #ff8040;
+}
+
+h5{
+	margin-block-start: initial;
+	margin-block-end: initial;
+	margin-top:10px;
+}
+
+.search {
+    display: flex;
+    padding-top: 2%;
+    width : 100%;
+}
+.input {
+    width: 80%;
+    display: flex;
+}
+.input {
+/* 	display: block; */
+	margin-top:0px;
+}
+.searchText {
+	margin-right: 4px;
+}
+.searchImage {
+	width: 6%;
+/* 	margin-top: 5px; */
+	margin-left: 5px;
+}
+
+
+#filter-head {
+    display: flex;
+}
+#filter-head h3{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.filter {
+    width: 20%;
+}
+.filter-wrapper {
+	text-align:center;
+}
+#open {
+    background-color: #d00;
+    color: white;
+    padding: 4%;
+    border-radius: 4px;
+}
+.filter a {
+    text-decoration: none;
+}
+#modal {
+  background: rgb(156, 176, 184);
+  color: #555;
+  width: 80%;
+  height: 50%; 
+  padding: 20px;
+  padding-top:20px;
+  padding-bottom:30px;
+  border-radius: 4px;
+  top: 180px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+  transition: all 0.4s;
+}
+
+
+#close {
+    display: inline-block;
+    width: 20%;
+    background-color: #fff;
+    text-align: center;
+    padding: 0.5% 0;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+#filterButton{
+    width: 28%;
+    background-color: #fff;
+    text-align: center;
+    padding: 2%;
+    margin: 0 auto;
+    margin-top: 4%;
+    border-radius: 4px;
+}
+
+  #modal h5 {
+  margin-top: 8%;
+  margin-bottom: 2%;
+  }
+
+#open, #close, #filterButton {
+    cursor: pointer;
+    /* padding: auto; */
+    text-align: center;
+}
+#open:hover, #close:hover, #filterButton:hover {
+    background-color: #f00;
+    color:white;
+}
+
+.searchForExit{
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+
+ section form {
+	width: 100%;
+	margin: 0 auto;
+	text-align:center;
+/* 	background-color: white; */
+}
